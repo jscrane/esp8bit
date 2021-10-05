@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 274)
+    (start_pass_no 860)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -64,9 +64,10 @@
   )
   (class "kicad_default"
     "Net-(U1-Pad8)" "Net-(U1-Pad7)" /DC /Sound "/KBD_DATA" "/KBD_CLK" GND VCC
-    "Net-(U1-Pad16)" "/TFT_CS" /MOSI /MISO /SCK "/SD_CS" "Net-(U1-Pad10)" /Rst
-    "Net-(J2-Pad6)" "Net-(J2-Pad2)" +9V "/T_CLK" "/T_CS" "/T_DIN" "/T_OUT" "/T_IRQ"
-    "Net-(J5-Pad2)"
+    "/TFT_CS" /MOSI /MISO /SCK "/SD_CS" /Rst "/T_CLK" "/T_CS"
+    "/T_DIN" "/T_OUT" "/T_IRQ" "/SD_RAM_CS" +3V3 "Net-(C7-Pad2)" "Net-(C6-Pad1)" "Net-(C1-Pad1)"
+    "Net-(C2-Pad1)" "Net-(R3-Pad2)" "Net-(R_POT1-Pad2)" "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(C5-Pad1)" "Net-(C4-Pad2)" "/RAM_CS"
+    /LED "Net-(J5-Pad2)" "/A_IN" "/A_OUT"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
